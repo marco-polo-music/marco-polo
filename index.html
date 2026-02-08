@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Marco Polo — Underground · Madrid</title>
+  <meta name="description" content="Marco Polo. Artista underground desde Madrid. Música, vídeos y contacto." />
+  <meta property="og:title" content="Marco Polo — Underground · Madrid" />
+  <meta property="og:description" content="Escucha a Marco Polo en Spotify y síguelo en redes." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="hero.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%90%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="hero" id="top">
+    <div class="hero__bg" aria-hidden="true"></div>
+
+    <nav class="nav">
+      <a class="nav__brand" href="#top">MP</a>
+      <div class="nav__links">
+        <a href="#music">Música</a>
+        <a href="#links">Links</a>
+        <a href="#contact">Contacto</a>
+      </div>
+    </nav>
+
+    <main class="hero__content">
+      <p class="tag">Underground · Madrid</p>
+      <h1>Marco Polo</h1>
+      <p class="subtitle">La cabra.</p>
+
+      <div class="cta">
+        <a class="btn btn--primary" href="https://open.spotify.com/artist/4DrPVac5U4O8fKEoyWx3WK?si=6ISQ422ZRyeSCT3Z5qtCMQ" target="_blank" rel="noreferrer">
+          Escuchar en Spotify
+        </a>
+        <a class="btn btn--ghost" href="#links">Ver redes</a>
+      </div>
+
+      <div class="mini">
+        <span class="mini__dot"></span>
+        <span>Nuevos temas y vídeos en camino.</span>
+      </div>
+    </main>
+  </header>
+
+  <section class="section" id="music">
+    <div class="container">
+      <h2>Música</h2>
+      <p class="lead">Dale play y entra al mood.</p>
+
+      <div class="card">
+        <iframe
+          style="border-radius:14px"
+          src="https://open.spotify.com/embed/artist/4DrPVac5U4O8fKEoyWx3WK?utm_source=generator"
+          width="100%"
+          height="380"
+          frameborder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="links">
+    <div class="container">
+      <h2>Links</h2>
+      <p class="lead">Sígueme y no te pierdas nada.</p>
+
+      <div class="grid">
+        <a class="tile" href="https://www.instagram.com/marcopolo_dam?igsh=MWk2ZWZmZDY0dmV1dw==" target="_blank" rel="noreferrer">
+          <span class="tile__kicker">Instagram</span>
+          <span class="tile__title">@marcopolo_dam</span>
+          <span class="tile__hint">Fotos · clips · updates</span>
+        </a>
+
+        <a class="tile" href="https://youtube.com/@marco.polo_dam?si=pp8_iQXwXktR8qR-" target="_blank" rel="noreferrer">
+          <span class="tile__kicker">YouTube</span>
+          <span class="tile__title">Marco Polo</span>
+          <span class="tile__hint">Vídeos · visualizers</span>
+        </a>
+
+        <a class="tile" href="https://www.tiktok.com/@marco.poloo_?_r=1&_t=ZN-93kaH7jcN6p" target="_blank" rel="noreferrer">
+          <span class="tile__kicker">TikTok</span>
+          <span class="tile__title">@marco.poloo_</span>
+          <span class="tile__hint">Snippets · trends</span>
+        </a>
+
+        <a class="tile" href="https://open.spotify.com/artist/4DrPVac5U4O8fKEoyWx3WK?si=6ISQ422ZRyeSCT3Z5qtCMQ" target="_blank" rel="noreferrer">
+          <span class="tile__kicker">Spotify</span>
+          <span class="tile__title">Perfil de artista</span>
+          <span class="tile__hint">Singles · EPs</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p class="lead">Bookings · collabs · prensa.</p>
+
+      <div class="card card--contact">
+        <div>
+          <p class="small">Management</p>
+          <p class="big">marco.polo.mngmt@gmail.com</p>
+        </div>
+
+        <div class="contact__actions">
+          <a class="btn btn--primary"
+             href="mailto:marco.polo.mngmt@gmail.com?subject=Booking%20/%20Collab%20-%20Marco%20Polo&body=Buenas%2C%20%0A%0ASoy%20___%20y%20te%20contacto%20por%20___%20.%0A%0AFecha%20/%20Ciudad%3A%20___%0APresupuesto%3A%20___%0A%0AGracias%21">
+            Escribir email
+          </a>
+          <a class="btn btn--ghost" href="#top">Volver arriba</a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <span>© <span id="y"></span> Marco Polo</span>
+        <span class="footer__sep">·</span>
+        <span class="footer__muted">Underground · Madrid</span>
+      </footer>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
