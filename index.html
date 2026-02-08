@@ -56,50 +56,6 @@
     </main>
   </header>
 
-  <!-- Mini EPK -->
-  <section class="section" id="epk">
-    <div class="container">
-      <div class="sectionHead reveal">
-        <h2>EPK</h2>
-        <p class="lead muted">Info rápida para bookings y prensa.</p>
-      </div>
-
-      <div class="epk reveal">
-        <div class="card">
-          <p class="small">Bio</p>
-          <p class="epk__bio">
-            Marco Polo — Madrid. Sonido directo, identidad propia y una visión clara.
-            <span class="muted">La Linea Del Cielo.</span>
-          </p>
-
-          <div class="chips">
-            <span class="chip">Ciudad: Madrid</span>
-            <span class="chip">Formato: Live / DJ set</span>
-            <span class="chip">Disponibilidad: Bookings</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <p class="small">Links rápidos</p>
-          <div class="quick">
-            <a class="quick__item" href="https://open.spotify.com/artist/4DrPVac5U4O8fKEoyWx3WK" target="_blank" rel="noreferrer">
-              <span class="quick__label">Spotify</span>
-              <span class="quick__value">Perfil de artista</span>
-            </a>
-            <a class="quick__item" href="https://www.instagram.com/marcopolo_dam" target="_blank" rel="noreferrer">
-              <span class="quick__label">Instagram</span>
-              <span class="quick__value">@marcopolo_dam</span>
-            </a>
-            <a class="quick__item" href="https://youtube.com/@marco.polo_dam" target="_blank" rel="noreferrer">
-              <span class="quick__label">YouTube</span>
-              <span class="quick__value">Canal</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Música -->
   <section class="section" id="music">
     <div class="container">
@@ -129,23 +85,66 @@
 
       <div class="grid reveal">
         <a class="tile" href="https://www.instagram.com/marcopolo_dam" target="_blank" rel="noreferrer">
-          <span class="tile__kicker">Instagram</span>
+          <span class="tile__top">
+            <span class="tile__icon" aria-hidden="true">
+              <!-- Instagram -->
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                <circle cx="12" cy="12" r="4"></circle>
+                <circle cx="17.5" cy="6.5" r="1"></circle>
+              </svg>
+            </span>
+            <span class="tile__kicker">Instagram</span>
+          </span>
           <span class="tile__title">@marcopolo_dam</span>
+          <span class="tile__hint">Fotos · clips · updates</span>
         </a>
 
         <a class="tile" href="https://open.spotify.com/artist/4DrPVac5U4O8fKEoyWx3WK" target="_blank" rel="noreferrer">
-          <span class="tile__kicker">Spotify</span>
+          <span class="tile__top">
+            <span class="tile__icon" aria-hidden="true">
+              <!-- Spotify -->
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M7.5 10.2c3.6-1.1 7.2-.7 9.9.9"></path>
+                <path d="M7.8 13c3-0.8 6-.5 8.4.7"></path>
+                <path d="M8.2 15.7c2.2-.5 4.4-.3 6.2.5"></path>
+              </svg>
+            </span>
+            <span class="tile__kicker">Spotify</span>
+          </span>
           <span class="tile__title">Perfil de artista</span>
+          <span class="tile__hint">Singles · EPs</span>
         </a>
 
         <a class="tile" href="https://youtube.com/@marco.polo_dam" target="_blank" rel="noreferrer">
-          <span class="tile__kicker">YouTube</span>
+          <span class="tile__top">
+            <span class="tile__icon" aria-hidden="true">
+              <!-- YouTube -->
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 9l6 3-6 3V9z"></path>
+                <path d="M21 12c0-2.2-.2-3.5-.5-4.2-.3-.8-1-1.4-1.8-1.6C16.9 6 12 6 12 6s-4.9 0-6.7.2c-.8.2-1.5.8-1.8 1.6C3.2 8.5 3 9.8 3 12s.2 3.5.5 4.2c.3.8 1 1.4 1.8 1.6C7.1 18 12 18 12 18s4.9 0 6.7-.2c.8-.2 1.5-.8 1.8-1.6.3-.7.5-2 .5-4.2z"></path>
+              </svg>
+            </span>
+            <span class="tile__kicker">YouTube</span>
+          </span>
           <span class="tile__title">Marco Polo</span>
+          <span class="tile__hint">Vídeos · visualizers</span>
         </a>
 
         <a class="tile" href="https://www.tiktok.com/@marco.poloo_" target="_blank" rel="noreferrer">
-          <span class="tile__kicker">TikTok</span>
+          <span class="tile__top">
+            <span class="tile__icon" aria-hidden="true">
+              <!-- TikTok (simple note) -->
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M14 3v10.2a3.8 3.8 0 1 1-3-3.7"></path>
+                <path d="M14 6c1.2 2.2 3 3.4 6 3.6"></path>
+              </svg>
+            </span>
+            <span class="tile__kicker">TikTok</span>
+          </span>
           <span class="tile__title">@marco.poloo_</span>
+          <span class="tile__hint">Snippets · trends</span>
         </a>
       </div>
     </div>
@@ -162,22 +161,17 @@
       <div class="card card--contact reveal">
         <div>
           <p class="small">Management</p>
-          <p class="big" id="emailText">marco.polo.mngmt@gmail.com</p>
+          <p class="big">marco.polo.mngmt@gmail.com</p>
           <p class="muted small">Respuesta más rápida por email.</p>
         </div>
 
         <div class="contact__actions">
           <a class="btn btn--primary"
-             href="mailto:marco.polo.mngmt@gmail.com">
+             href="mailto:marco.polo.mngmt@gmail.com?subject=Booking%20/%20Collab%20-%20Marco%20Polo&body=Buenas%2C%0A%0ASoy%20___%20y%20te%20contacto%20por%20___%20.%0A%0AFecha%20/%20Ciudad%3A%20___%0APresupuesto%3A%20___%0A%0AGracias%21">
             Escribir email
           </a>
-          <button class="btn btn--ghost" id="copyEmailBtn" type="button">
-            Copiar email
-          </button>
           <a class="btn btn--ghost" href="#top">Volver arriba</a>
         </div>
-
-        <div class="toast" id="toast">Copiado ✅</div>
       </div>
 
       <footer class="footer">
@@ -189,48 +183,72 @@
   </section>
 
   <script>
+    // Año
     document.getElementById("y").textContent = new Date().getFullYear();
 
-    const copyBtn = document.getElementById("copyEmailBtn");
-    const emailText = document.getElementById("emailText");
-    const toast = document.getElementById("toast");
-
-    function showToast(){
-      toast.classList.add("toast--show");
-      setTimeout(()=>toast.classList.remove("toast--show"),1100);
-    }
-
-    copyBtn?.addEventListener("click", async () => {
-      const email = emailText.textContent.trim();
-      try{
-        await navigator.clipboard.writeText(email);
-        showToast();
-      }catch{
-        const ta = document.createElement("textarea");
-        ta.value = email;
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand("copy");
-        document.body.removeChild(ta);
-        showToast();
-      }
-    });
-
+    // Reveal on scroll (suave)
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if(!prefersReduced){
+    if (!prefersReduced) {
       const els = document.querySelectorAll(".reveal");
-      const io = new IntersectionObserver((entries)=>{
-        entries.forEach(en=>{
-          if(en.isIntersecting){
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((en) => {
+          if (en.isIntersecting) {
             en.target.classList.add("reveal--in");
             io.unobserve(en.target);
           }
         });
-      },{threshold:.12});
-      els.forEach(el=>io.observe(el));
-    }else{
-      document.querySelectorAll(".reveal").forEach(el=>el.classList.add("reveal--in"));
+      }, { threshold: 0.12 });
+      els.forEach(el => io.observe(el));
+    } else {
+      document.querySelectorAll(".reveal").forEach(el => el.classList.add("reveal--in"));
     }
+
+    // Scroll suave “progresivo” (easing) para links internos
+    (function () {
+      const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (reduced) return;
+
+      const easeInOutCubic = (t) => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+
+      function smoothScrollTo(targetY, duration = 700) {
+        const startY = window.scrollY || window.pageYOffset;
+        const diff = targetY - startY;
+        const start = performance.now();
+
+        function step(now) {
+          const t = Math.min(1, (now - start) / duration);
+          const eased = easeInOutCubic(t);
+          window.scrollTo(0, startY + diff * eased);
+          if (t < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      }
+
+      document.addEventListener("click", (e) => {
+        const a = e.target.closest('a[href^="#"]');
+        if (!a) return;
+
+        const id = a.getAttribute("href");
+        if (!id || id === "#") return;
+
+        const el = document.querySelector(id);
+        if (!el) return;
+
+        e.preventDefault();
+
+        // pequeña compensación por la nav
+        const nav = document.querySelector(".nav");
+        const offset = nav ? nav.getBoundingClientRect().height + 10 : 20;
+
+        const rect = el.getBoundingClientRect();
+        const targetY = Math.max(0, (window.scrollY || window.pageYOffset) + rect.top - offset);
+
+        smoothScrollTo(targetY, 720);
+
+        // accesibilidad: actualiza hash sin salto
+        history.pushState(null, "", id);
+      });
+    })();
   </script>
 </body>
 </html>
