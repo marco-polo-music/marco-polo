@@ -67,7 +67,7 @@ a{color:inherit; text-decoration:none}
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding: calc(18px + env(safe-area-inset-top)) 22px 18px;
+  padding: calc(18px + env(safe-area-inset-top)) 0 18px;
   width:min(var(--max), calc(100% - 40px));
   margin: 0 auto;
 }
